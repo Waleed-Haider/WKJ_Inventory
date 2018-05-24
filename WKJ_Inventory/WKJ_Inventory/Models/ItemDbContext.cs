@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data.Entity;
-using System.Linq;
-using System.Web;
+﻿using System.Data.Entity;
 
 namespace WKJ_Inventory.Models
 {
@@ -12,5 +8,7 @@ namespace WKJ_Inventory.Models
         {
 
         }
+
+        public DbSet<Item> Items { get; set; }
     }
 }
