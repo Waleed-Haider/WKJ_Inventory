@@ -13,5 +13,7 @@ namespace WKJ_Inventory.Controllers
         {
             return View();
         }
+
+        
     }
 }
